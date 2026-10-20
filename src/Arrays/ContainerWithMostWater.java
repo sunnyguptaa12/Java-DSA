@@ -30,6 +30,7 @@ public class ContainerWithMostWater {
                 maxArea = area;
             }
 
+
             //move pointer to shoter line
             if(height[left] < height[right]){
                 left++;
