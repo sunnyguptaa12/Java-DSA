@@ -48,9 +48,7 @@ public class ReverseLinkedList {
         System.out.print("original List: ");
         display(head);
 
-        head = reverse(head);
-
         System.out.print("Reversed List: ");
-        display(head);
+        display(reverse(head));
     }
 }
