@@ -47,6 +47,7 @@ public class MergeTwoSortedList {
     }
 
     public static void main(String[] args) {
+
         Node list1 = new Node(10);
         list1.next = new Node(30);
         list1.next.next = new Node(50);
