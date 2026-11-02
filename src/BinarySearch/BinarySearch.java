@@ -11,7 +11,7 @@ public class BinarySearch {
 
         while (low <= high){
 
-            int mid = low + (high - low) / 2;
+            int mid = low + (high - low) / 2;                       //Find Middle
 
             if(arr[mid] == target){
                 System.out.println("found at index: " + mid);

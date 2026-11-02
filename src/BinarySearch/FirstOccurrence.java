@@ -15,6 +15,7 @@ public class FirstOccurrence {
             if(arr[mid] == target){
                 ans = mid;
                 high = mid - 1;
+
             } else if (arr[mid] < target){
                 low = mid + 1;
             } else {
